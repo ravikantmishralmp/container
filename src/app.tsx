@@ -100,6 +100,12 @@ const App: React.FC = () => {
                   element={<AuthApp setLoginState={setSigninState} />}
                 />
 
+                {/* Auth Route */}
+                <Route
+                  path="/auth/signup"
+                  element={<AuthApp setLoginState={setSigninState} />}
+                />
+
                 {/* Protected Routes */}
                 <Route
                   path="/"
